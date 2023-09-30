@@ -1,0 +1,16 @@
+@theme "~/.local/share/rofi/themes/simple-tokyonight.rasi"
+/* ^ modified */ 
+
+configuration {
+    disable-history: true;
+    normalize-match: true;
+    cycle: false;
+    font: "Fira Code 20";
+    case-sensitive: false;
+    show-icons: false;
+    matching: "normal";
+}
+
+element {
+    highlight: none;
+}
